@@ -1,0 +1,13 @@
+{
+  "name": "SanctuaryCustomTypesExample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "J.A. Samitier",
+  "license": "ISC",
+  "dependencies": {
+    "sanctuary": "^3.0.0",
+    "sanctuary-def": "^0.21.1",
+    "sanctuary-type-identifiers": "^3.0.0"
+  }
+}
