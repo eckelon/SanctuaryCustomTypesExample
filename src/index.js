@@ -1,4 +1,5 @@
-const Provider = require('./types/provider');
+// const Provider = require('./types/provider');
+const Provider = require('./types/providerEasier');
 const { sanctuary: { I }, sanctuaryDef: { env, create: createDef} } = require('./lib/fpUtils');
 
 const def = createDef ({ checkTypes: true , env: env.concat ([Provider])});

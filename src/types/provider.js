@@ -5,7 +5,7 @@ const {
   , utils: { getNumber, getString }
 } = require('../lib/fpUtils');
 
-module.exports = NullaryType
+const Provider = NullaryType
 ('Provider')
 ('http://documentation.foo/api#Provider')
 ([])
@@ -28,4 +28,4 @@ module.exports = NullaryType
   return true;
 });
 
-
+module.exports = Provider;
